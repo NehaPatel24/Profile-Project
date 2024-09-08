@@ -1,0 +1,117 @@
+body{
+    background-color: rgb(222, 244, 242);
+    
+}
+
+.container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    gap: 20px; 
+    padding: 20px; 
+}
+
+.section {
+    text-align: center;
+    margin-bottom: 20px;    
+}
+.section img {
+    max-width: 100%;
+    height: auto; 
+    border-radius: 8px;
+    width:450px;
+    height:450px;
+    border-radius:100%;
+}
+
+.card1{
+    text-align: center;
+    padding: 20px;
+    flex: 1; 
+    margin-bottom: 20px;
+
+} 
+.intro{
+    font-size: 40px;
+} 
+.paragraph {
+    line-height: 1.6; 
+    text-align: left;
+    margin-top: -50px;
+    padding:50px;
+    font-size: 20px;
+}
+.parent {
+    display: flex; 
+    gap: 20px; 
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.class1, .class2 {
+    flex: 1; 
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+h1.skills, h1.Contact {
+    color: #333;
+    margin-bottom: 10px;
+}
+h3 {
+    color: #555;
+    margin: 5px 0;
+}
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .container, .parent {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .section img {
+        width: 100%; 
+        height: auto;
+        margin-top: 70px;
+    }
+
+    .intro {
+        font-size: 30px; 
+        margin-top: -70px;
+    }
+
+    .card1{
+        position: relative;
+    }
+
+    #h1-tag{
+        margin-top: -420px;
+        position: absolute;
+        margin-left: 70px;
+    }
+
+    .paragraph {
+        font-size: 18px;
+        padding: 20px; 
+    }
+}
+
+/* @media (max-width: 480px) {
+    .intro {
+        font-size: 24px;
+    }
+
+    .paragraph {
+        font-size: 16px;
+        padding: 10px;
+    }
+} */
+
+
